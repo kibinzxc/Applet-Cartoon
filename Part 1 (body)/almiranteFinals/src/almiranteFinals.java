@@ -12,9 +12,6 @@ public class almiranteFinals extends Applet {
 	public void paint(Graphics g) {
 		resize(2000, 1000);
 		
-	
-  			
-		
 	//body (start)
 	
 		//body-glitch red
@@ -40,10 +37,9 @@ public class almiranteFinals extends Applet {
   		int y[] = {300,650,650};
   		g.setColor(new Color(255, 233, 79));
   		g.fillPolygon(x, y, x.length);
-  		
-  		
-  	
+
   	//body (closing)
+  	
   	
   	//Hat (start)
   		//Hat-up-glitch blue
@@ -71,6 +67,7 @@ public class almiranteFinals extends Applet {
   		g.fillRoundRect(925,310,150,20,10,10);
   		
   	//Hat (closing)
+  		
   		
   	//Eyes (start)
   		//eye-outline
@@ -107,6 +104,7 @@ public class almiranteFinals extends Applet {
   		
   	//Eyes (closing)
   	
+  	
   	//Hands (start)
   		//hand-left
   		g.setColor(Color.black);
@@ -124,6 +122,7 @@ public class almiranteFinals extends Applet {
   	
   	//Hands (closing) 
   		
+  		
   	//Feet (start)
   		//foot-left
   		//Horizontal1
@@ -136,7 +135,6 @@ public class almiranteFinals extends Applet {
   		g.setColor(Color.black);
   		g.fillRoundRect(960,705,20,50,20,20);
   		
-  		
   		//foot-right
   		//Horizontal1
   		g.setColor(Color.black);
@@ -148,6 +146,7 @@ public class almiranteFinals extends Applet {
   		g.setColor(Color.black);
   		g.fillRoundRect(1020,705,20,50,20,20);
   	//Feet (closing)
+  	
   	
   	//bodylines (start)	
   		//bodylines-horizontal1
@@ -180,6 +179,7 @@ public class almiranteFinals extends Applet {
   		
   	//bodylines (closing)
   	
+  	
   	//Bowtie (start)
   		//Bowtie left triangle
   		int x4[] = {1005, 935, 935};
@@ -194,9 +194,5 @@ public class almiranteFinals extends Applet {
   		g.fillPolygon(x5, y5, x5.length);
   		
   	//Bowtie (closing)
-  	
-  	
-  	
-  		
 	}
 }
