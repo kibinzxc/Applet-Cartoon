@@ -85,10 +85,71 @@ public class almiranteFinals extends Applet {
 		//House 3
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(1300,580,400,270);
-		//roof
-		int rx3[] = {1400, 1270,1500 };
+		//roof1
+		int rx3[] = {1400, 1270,1520 };
 		int ry3[] = {450, 580, 580};
 		g.fillPolygon(rx3,ry3,rx3.length);
+		//roof2
+		int rx4[] = {1600, 1450, 1725};
+		int ry4[] = {450, 580, 580};
+		g.fillPolygon(rx4,ry4,rx4.length);
+		//Chimney1
+		g.fillRect(1440,450,20,80);
+		//Chimney2
+		g.fillRect(1650,450,20,80);
+		
+		//Window1 1st floor
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(1350, 600, 90, 110, 2, 2);
+		//WindowBars 1st floor
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1350, 650, 90, 5);
+		g.fillRect(1350, 622, 90, 5);
+		g.fillRect(1350, 678, 90, 5);
+		g.fillRect(1377, 600, 5, 110);
+		g.fillRect(1410, 600, 5, 110);
+		
+		//Window1 2nd Floor
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(1375,510,40,50,2,2);
+		//WindowBars 2nd Floor
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1375,533,40,5);
+		g.fillRect(1393,510,5,60);
+		
+		//Window2 1st floor
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(1545, 600, 100, 110, 2, 2);
+		//WindowBars2 1st Floor
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1545, 650, 100, 5);
+		g.fillRect(1545, 622, 100, 5);
+		g.fillRect(1545, 678, 100, 5);
+		g.fillRect(1574, 600, 5, 110);
+		g.fillRect(1610, 600, 5, 110);
+		
+		//Window2 2nd Floor
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(1575,510,40,50,2,2); 
+		//Windowbars2 2nd floor
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1575,533,40,5);
+		g.fillRect(1593,510,5,60);
+		
+		//house4
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1820,700,150,150);
+		//roof
+		int rx5[] = {1950,1800,2000};
+		int ry5[] = {600,700,700};
+		g.fillPolygon(rx5,ry5,rx5.length);
+		//window
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(1850,720,40,40,2,2);
+		//windowbars
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1850, 740, 90, 5);
+		g.fillRect(1867, 720, 5, 90);
 		
 		//portal
 		g.setColor(new Color(217, 233, 255));
