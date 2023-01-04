@@ -82,6 +82,14 @@ public class almiranteFinals extends Applet {
 		g.fillRect(620, 400, 60, 5);
 		g.fillRect(648, 370, 5, 60);
 		
+		//House 3
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(1300,580,400,270);
+		//roof
+		int rx3[] = {1400, 1270,1500 };
+		int ry3[] = {450, 580, 580};
+		g.fillPolygon(rx3,ry3,rx3.length);
+		
 		//portal
 		g.setColor(new Color(217, 233, 255));
 		g.fillRoundRect(730,0,535,1000,10,10);
