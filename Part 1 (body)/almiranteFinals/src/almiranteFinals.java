@@ -12,8 +12,62 @@ public class almiranteFinals extends Applet {
 	public void paint(Graphics g) {
 		resize(2000, 1000);
 		
+		
+		//clouds
+		g.setColor(new Color(66, 16, 9));
+		g.fillRect(0,0,2000,200);
+		
+		//ground
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(0,800,2000,250);
+		
+		//middle fire
+		g.setColor(new Color(219, 76, 10));
+		g.fillRect(0,120,2000,720);
+		
+		//house1 (left-right)
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(50,580,150,270);
+		int rx[] = {130,20,230};
+		int ry[] = {450,580,580};
+		g.fillPolygon(rx,ry,rx.length);
+		g.fillRect(170,475,20,60); //chimney
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(107,510,40,50,2,2);//2nd floor window
+		g.fillRoundRect(85, 600, 80, 100, 2, 2); //1st floor window
+		//window bars
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(107, 530, 40, 5);
+		g.fillRect(125, 510, 5, 60);
+		g.fillRect(108, 600, 5, 100);
+		g.fillRect(136, 600, 5, 100);
+		g.fillRect(85, 625, 80, 5);
+		g.fillRect(85, 650, 80, 5);
+		g.fillRect(85, 675, 80, 5);
+		
+		//portal
+		g.setColor(new Color(217, 233, 255));
+		g.fillRoundRect(730,0,535,1000,10,10);
+		//effect-left
+		g.fillRoundRect(710,20,10,130,10,10);
+		g.fillRoundRect(710,180,10,20,10,10);
+		g.fillRoundRect(710,220,10,350,10,10);
+		g.fillRoundRect(710,600,10,50,10,10);
+		g.fillRoundRect(710,670,10,300,10,10);
+		//effect-right
+		g.fillRoundRect(1275,0,10,300,10,10);
+		g.fillRoundRect(1275,320,10,40,10,10);
+		g.fillRoundRect(1275,380,10,280,10,10);
+		g.fillRoundRect(1275,680,10,20,10,10);
+		g.fillRoundRect(1275,720,10,150,10,10);
+		g.fillRoundRect(1275,890,10,70,10,10);
+		
+		//shadow
+		g.setColor(new Color(172, 201, 230));
+		g.fillOval(870,870,250,30);
+		
 	//body (start)
-	
+		
 		//body-glitch red
 		int x3[] = {1010, 800, 1230};
   		int y3[] = {280,660,660};
