@@ -25,6 +25,36 @@ public class almiranteFinals extends Applet {
 		g.setColor(new Color(219, 76, 10));
 		g.fillRect(0,120,2000,720);
 		
+		//Clouds c1 - c7 clockwise
+		g.setColor(new Color(66, 16, 9));
+		g.fillOval(-20,200,160,100);
+		//c2
+		g.fillOval(100,230,160,100);
+		//c3
+		g.fillOval(200,230,280,100);
+		//c4
+		g.fillOval(430,210,160,80);
+		//c5
+		g.fillOval(390,160,160,100);
+		//c6
+		g.fillOval(80,150,280,100);
+		//c7
+		g.fillOval(300,140,160,100);
+		
+		//Clouds2 c1-c6 counter clockwise
+		g.setColor(new Color(66, 16, 9));
+		g.fillOval(1700,200,290,100);
+		//c2
+		g.fillOval(1510,200,290,100);
+		//c3
+		g.fillOval(1450,150,160,100);
+		//c4
+		g.fillOval(1520,130,160,100);
+		//c5
+		g.fillOval(1660,140,160,100);
+		//c6
+		g.fillOval(1770,160,160,100);
+		
 		//house1 (left-right)
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(50,580,150,270);
