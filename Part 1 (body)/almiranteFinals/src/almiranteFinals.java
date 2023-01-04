@@ -28,13 +28,16 @@ public class almiranteFinals extends Applet {
 		//house1 (left-right)
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(50,580,150,270);
+		//roof
 		int rx[] = {130,20,230};
 		int ry[] = {450,580,580};
 		g.fillPolygon(rx,ry,rx.length);
 		g.fillRect(170,475,20,60); //chimney
+		//2nd floor window
 		g.setColor(new Color(219, 76, 10));
-		g.fillRoundRect(107,510,40,50,2,2);//2nd floor window
-		g.fillRoundRect(85, 600, 80, 100, 2, 2); //1st floor window
+		g.fillRoundRect(107,510,40,50,2,2);
+		//1st floor window
+		g.fillRoundRect(85, 600, 80, 100, 2, 2); 
 		//window bars
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(107, 530, 40, 5);
@@ -44,6 +47,40 @@ public class almiranteFinals extends Applet {
 		g.fillRect(85, 625, 80, 5);
 		g.fillRect(85, 650, 80, 5);
 		g.fillRect(85, 675, 80, 5);
+		
+		//house2
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(330,700,150,150);
+		//roof
+		int rx1[] = {405,300,510};
+		int ry1[] = {600,700,700};
+		g.fillPolygon(rx1,ry1,rx1.length);
+		g.fillRect(450,600,20,65); //chimney
+		//window
+		g.setColor(new Color(219, 76, 10));
+		g.fillRoundRect(350,720,40,40,2,2);
+		g.fillRoundRect(420,720,40,40,2,2);
+		//window bars
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(367,720,5,40);
+		g.fillRect(437,720,5,40);
+		g.fillRect(350,738,40,5);
+		g.fillRect(420,738,40,5);
+		
+		//Altar
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(600,350,100,500);
+		//roof
+		int rx2[] = {650, 585, 713};
+		int ry2[] = {220, 350, 350};
+		g.fillPolygon(rx2,ry2,rx2.length);
+		//window-top
+		g.setColor(new Color(219, 76, 10));
+		g.fillOval(620, 370, 60, 60);
+		//window bars
+		g.setColor(new Color(32, 9, 7));
+		g.fillRect(620, 400, 60, 5);
+		g.fillRect(648, 370, 5, 60);
 		
 		//portal
 		g.setColor(new Color(217, 233, 255));
