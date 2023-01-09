@@ -54,7 +54,7 @@ public class almiranteFinals extends Applet {
 		g.fillOval(1660,140,160,100);
 		//c6
 		g.fillOval(1770,160,160,100);
-		
+		//yolo
 		//house1 (left-right)
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(50,580,150,270);
