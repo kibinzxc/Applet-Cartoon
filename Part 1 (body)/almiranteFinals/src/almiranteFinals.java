@@ -56,6 +56,7 @@ public class almiranteFinals extends Applet {
 		g.fillOval(1770,160,160,100);
 		//yolo
 		//trying to get new badge
+		//last
 		//house1 (left-right)
 		g.setColor(new Color(32, 9, 7));
 		g.fillRect(50,580,150,270);
