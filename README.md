@@ -1,4 +1,4 @@
-# DCIT50A Finals
+# Applet Cartoon (BILL CIPHER from GRAVITY FALLS) | DCIT50A Finals
  In Compliance to DCIT50A | First Semester - Finals | 2nd Year College
 
 ### Preview
