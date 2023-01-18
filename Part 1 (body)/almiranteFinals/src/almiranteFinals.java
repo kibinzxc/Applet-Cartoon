@@ -2,15 +2,15 @@ import java.awt.*;
 import java.applet.*;
 
 public class almiranteFinals extends Applet {
-	
-
+	Font f1;
 	
 	public void init() {
-		
+		f1 = new Font("Courier",Font.PLAIN,18);
 	}
 
 	public void paint(Graphics g) {
 		resize(2000, 1000);
+		
 		
 		
 		//clouds
@@ -39,7 +39,7 @@ public class almiranteFinals extends Applet {
 		//c6
 		g.fillOval(80,150,280,100);
 		//c7
-		g.fillOval(300,140,160,100);
+		g.fillOval(300,150,160,100);
 		
 		//Clouds2 c1-c6 counter clockwise
 		g.setColor(new Color(66, 16, 9));
@@ -54,6 +54,10 @@ public class almiranteFinals extends Applet {
 		g.fillOval(1660,140,160,100);
 		//c6
 		g.fillOval(1770,160,160,100);
+		
+		g.setColor(Color.white);
+		g.setFont(f1);
+		g.drawString("Kevin Daniel Almirante | BSIT-2C", 1450,960);
 		
 		//house1 (left-right)
 		g.setColor(new Color(32, 9, 7));
