@@ -9,9 +9,7 @@ public class almiranteFinals extends Applet {
 	}
 
 	public void paint(Graphics g) {
-		resize(2000, 1000);
-		
-		
+		resize(2000, 980);
 		
 		//clouds
 		g.setColor(new Color(66, 16, 9));
